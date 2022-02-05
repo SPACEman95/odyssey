@@ -60,6 +60,10 @@ RUN wget ${MV_INVENTORIES_URL} -O plugins/Multiverse-Inventories.jar
 ARG DYNMAP_URL=https://media.forgecdn.net/files/3581/197/Dynmap-3.3-beta-4-spigot.jar
 RUN wget ${DYNMAP_URL} -O plugins/dynmap.jar
 
+#PermissionsEX (PeX)
+ARG PeX_URL=https://github.com/PEXPlugins/PermissionsEx/releases/download/STABLE-1.22.10/PermissionsEx-1.22.10.jar
+RUN wget ${PeX_URL} -O plugins/PeX.jar
+
 # World Edit
 # TODO
 
